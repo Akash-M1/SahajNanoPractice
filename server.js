@@ -36,7 +36,7 @@ app.post('/employee', (req, res) => {
     });
 });
 
-// Get Employee details
+// Get Employee detail
 app.get('/employee/:id', (req, res) => {
     const empDet = require('./home/employee.json');
     let empId = req.params.id;
